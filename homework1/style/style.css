@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-white);
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+:root {
+  
+   
+    --blue-1: rgb(75, 100, 220);
+    --white: #ffffff;
+    --gray: gray;  
+    --light-white: #cefae6;
+    --dodgerblue: dodgerblue;
+    --black: #222;
+
+}
+
+.box{
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    max-width: 300px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: var(--white);
+    
+ 
+
+}
+
+
+
+.nav-link{
+    list-style-type: none;
+}
+
+.nav-wrapper{
+    gap: 0 10px;
+    padding: 10px 15px 30px 15px;
+    display: flex;
+
+}
+
+
+.nav-title{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    line-height: 36px;
+   
+  
+}
+
+
+
+.title{
+    font-weight: 400;
+
+    font-size: 98px;
+    color: var(--black);
+    line-height: 106px;
+    padding-left: 25px ;
+    display: -webkit-box;
+    flex-direction: column;
+    display: flex;
+
+
+
+}
+.wrapper{
+    border-left: 15px solid gold;
+}
+
+
+
+
+.auth{
+
+    flex-direction: column;
+    gap: 40px 0;
+
+    display: flex;
+  
+   
+}
+
+form  label{
+
+   gap: 0 10px; 
+   text-transform: capitalize;
+   font-weight: 400;  
+   font-size: 18px;
+   padding: 15px 50px 15px 18px;
+   cursor: pointer;
+
+ 
+   display: flex;
+   
+ 
+}
+
+form input{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+label:hover{
+    background-color:yellow;
+    color: var(--white);
+    border-radius: 5px;
+
+}
+
+label:has(input:checked){
+    color: var(--white);
+    border-radius: 5px;
+    
+}
